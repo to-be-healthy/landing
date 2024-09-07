@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M2.51953 2.82733H42.7562V54.5602H2.51953V2.82733ZM2.51995 18.0452V2.82967H17.9956L2.51995 18.0452Z" fill="#F2F3F5"/>
+<path id="Vector 1511" d="M23.5957 53.168L27.4277 41.672L35.0918 49.336L23.5957 53.168Z" fill="#FFE5BF"/>
+<path id="Intersect" fill-rule="evenodd" clip-rule="evenodd" d="M24.9238 49.1837L23.5957 53.168L27.58 51.8399L24.9238 49.1837Z" fill="#2E3134"/>
+<rect id="Rectangle 39591663" x="48.5039" y="20.5993" width="10.8386" height="29.8061" transform="rotate(45 48.5039 20.5993)" fill="#FFB950"/>
+<path id="Rectangle 39591664" d="M50.2146 18.8862C51.3862 17.7146 53.2857 17.7146 54.4573 18.8862L57.8787 22.3076C59.0502 23.4792 59.0502 25.3786 57.8787 26.5502L56.168 28.2609L48.5039 20.5969L50.2146 18.8862Z" fill="#FFA450"/>
+<path id="Intersect_2" d="M18 18V3L3 18H18Z" fill="#CBCFD3"/>
+</g>
+</svg>

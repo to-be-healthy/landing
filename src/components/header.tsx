@@ -32,7 +32,7 @@ const Header = () => {
         isVisible ? 'top-0' : '-top-full'
       )}>
       <nav
-        className='mx-auto flex max-w-[1140px] items-center justify-between px-0 py-4'
+        className='mx-auto flex max-w-[1140px] items-center justify-between px-10 py-4'
         aria-label='Global'>
         <h1 className={cn(Typography.HEADING_1, 'text-white')}>건강해짐</h1>
       </nav>

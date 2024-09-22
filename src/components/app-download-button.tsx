@@ -13,14 +13,14 @@ const PlayStoreButton = () => {
         href={appConfig.playStoreLink}
         passHref={true}
         target='_blank'
-        className='flex h-[80px] w-[220px] gap-2 rounded-xl'>
-        <Icons.googlePlayLogo className='h-9 w-9' />
+        className='flex h-[52px] w-[152px] gap-2 rounded-xl lg:h-[80px] lg:w-[220px]'>
+        <Icons.googlePlayLogo className='h-[22px] w-[22px] lg:h-9 lg:w-9' />
         <div className='flex flex-col items-start gap-1'>
           <p
+            className='text-[7.867px] lg:text-[12.857px]'
             style={{
               color: '#666',
               fontFamily: 'Roboto',
-              fontSize: '12.857px',
               fontStyle: 'normal',
               fontWeight: 400,
               lineHeight: 'normal',
@@ -29,7 +29,7 @@ const PlayStoreButton = () => {
             }}>
             GET IT ON
           </p>
-          <Icons.googlePlayText className='h-6' />
+          <Icons.googlePlayText className='h-[14px] w-fit lg:h-6' />
         </div>
       </Link>
     </Button>
@@ -43,14 +43,14 @@ const AppStoreButton = () => {
         href={appConfig.appStoreLink}
         passHref={true}
         target='_blank'
-        className='flex h-[80px] w-[220px] gap-2 rounded-xl'>
+        className='flex h-[52px] w-[152px] gap-2 rounded-xl lg:h-[80px] lg:w-[220px]'>
         <Icons.appstoreLogo className='h-9 w-9' />
         <div className='flex flex-col items-start gap-1'>
           <p
+            className='text-[7.867px] lg:text-[12.857px]'
             style={{
               color: '#666',
               fontFamily: 'Helvetica Neue',
-              fontSize: '12.857px',
               fontStyle: 'normal',
               fontWeight: 400,
               lineHeight: 'normal',
@@ -58,7 +58,7 @@ const AppStoreButton = () => {
             }}>
             Download on the
           </p>
-          <Icons.appstoreText className='h-6' />
+          <Icons.appstoreText className='h-[14px] w-fit lg:h-6' />
         </div>
       </Link>
     </Button>

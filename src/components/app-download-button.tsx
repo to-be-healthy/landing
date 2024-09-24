@@ -29,7 +29,7 @@ const PlayStoreButton = () => {
             }}>
             GET IT ON
           </p>
-          <Icons.googlePlayText className='h-[14px] w-fit lg:h-6' />
+          <Icons.googlePlayText className='h-[14px] w-auto lg:h-6' />
         </div>
       </Link>
     </Button>
@@ -58,7 +58,7 @@ const AppStoreButton = () => {
             }}>
             Download on the
           </p>
-          <Icons.appstoreText className='h-[14px] w-fit lg:h-6' />
+          <Icons.appstoreText className='h-[14px] w-auto lg:h-6' />
         </div>
       </Link>
     </Button>

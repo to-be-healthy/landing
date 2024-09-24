@@ -21,7 +21,12 @@ export default function Home() {
                 className={cn(
                   Typography.TITLE_1,
                   'whitespace-pre-wrap text-center text-[40px] font-extrabold text-white lg:text-left lg:text-[56px]'
-                )}>{`피트니스 센터, 트레이너와\n회원을 위한 필수 앱`}</h2>
+                )}>
+                피트니스 센터,
+                <br className='lg:hidden' />
+                트레이너와
+                <br className='hidden lg:block' /> 회원을 위한 필수 앱
+              </h2>
               <div className='flex gap-3'>
                 <PlayStoreButton />
                 <AppStoreButton />

@@ -24,7 +24,7 @@ export default function Home() {
                 )}>
                 피트니스 센터,
                 <br className='lg:hidden' />
-                트레이너와
+                {` `}트레이너와
                 <br className='hidden lg:block' /> 회원을 위한 필수 앱
               </h2>
               <div className='flex gap-3'>
